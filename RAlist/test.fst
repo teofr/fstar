@@ -5,7 +5,7 @@ open FStar.List.Tot.Base
 open FStar.Mul
 open FStar.Tactics
 
-(* Some util functions I couldnt find
+(* Some useful functions I couldnt find
 *)
 
 (* Power *)
@@ -34,23 +34,12 @@ let rec lemma_append_length l1 l2 = match l1 with
     | [] -> ()
     | hd::tl -> lemma_append_length tl l2
 
-// Definition of @
-//val helper_lemma : #b:eqtype -> x:b -> l1:list b -> l2:list b -> Lemma ((x::l1) @ l2 = x::(l1@l2))
-//let rec helper_lemma #b x l1 l2 = ()
 
-val lemma_append_assoc : #b:eqtype -> l1:list b -> l2:list b -> l3:list b -> Lemma ((l1@l2)@l3 = l1@(l2@l3))
+val lemma_append_assoc : #b:eqtype -> l1:list b -> l2:list b -> l3:list b -> 
+                         Lemma ((l1@l2)@l3 = l1@(l2@l3))
 let rec lemma_append_assoc #b l1 l2 l3 = match l1 with
   | [] -> ()
   | hd::tl -> lemma_append_assoc tl l2 l3
-// Simple enough, shouldnt need it
-(*val random_lemma : 
-                 #b:Type -> 
-                 x:b -> 
-                 l1:list b -> 
-                 l2:list b -> 
-                 Lemma (length (x :: l1 @ l2) = 1 + length l1 + length l2)
-let rec random_lemma #b x l1 l2 = lemma_append_length l1 l2
-*)
 
 (*  comBiTree
     comBitree is a non empty COMplete BInary TREE with the height of the tree at type level
@@ -73,7 +62,8 @@ let rec treeSize (t:comBiTree 'a 'n) = match t with
   | Leaf _ -> 1
   | Branch _ t1 t2 -> 1 + treeSize t1 + treeSize t2
 
-val tree_size_gives_height : #b:Type -> #h1:pos -> #h2:pos -> t1:comBiTree b h1 -> t2:comBiTree b h2 -> Lemma (requires treeSize t1 = treeSize t2) (ensures h1 = h2)
+val tree_size_gives_height : #b:Type -> #h1:pos -> #h2:pos -> t1:comBiTree b h1 -> t2:comBiTree b h2 -> 
+                             Lemma (requires treeSize t1 = treeSize t2) (ensures h1 = h2)
 let rec tree_size_gives_height #b #h1 #h2 t1 t2 = match t1 with
   | Leaf _ -> begin match t2 with
     | Leaf _ -> ()
@@ -96,17 +86,6 @@ let rec preorder #x #b t = match t with
     lemma_append_length (preorder t1) (preorder t2);
     a :: (preorder t1) @ preorder t2
   end
-
-//val lemma_preorder_has_the_root_first : 
-//                                #n:pos -> 
-//                                #b:eqtype ->
-//                                x:b ->
-//                                t1:comBiTree b n -> 
-//                                t2:comBiTree b n -> 
-//                                Lemma 
-//                                  (preorder (Branch x t1 t2) = 
-//                                    x :: ((preorder t1) @ (preorder t2)))
-//let lemma_preorder_has_the_root_first #n #b x t1 t2 = () 
 
 (* raNode
    It's a non empty linked list of strictly increasing comBiTrees
@@ -139,40 +118,6 @@ val headTree : #n:pos -> #b:Type -> raNode b n -> comBiTree b n
 let headTree #n #b ran = match ran with
   | Last t -> t
   | More t _ -> t
-
-(*
-val ran_is_short_helper :
-                        #x:pos ->
-                        #x2:pos{x2 > x} ->
-                        #b:Type ->
-                        t:comBiTree b x ->
-                        r:raNode b x2 ->
-                        Lemma ( More t r
-*)
-(*
-val ran_is_short : 
-                  #x:pos ->
-                  #b:Type ->
-                  r:raNode b x ->
-                  Lemma (ensures sizeRan r + 1 > pow 2 (lenRan r + (x - 1))) (decreases r)
-let rec ran_is_short #x #b r = match r with
-  | Last t -> ()
-  | More t r2 -> let k = treeHeight (headTree r2) in
-  begin
-    ran_is_short r2;
-    pow_distr_sums_on_e (lenRan r) (x - 1) 2;
-    pow_distr_sums_on_e (lenRan r2) (k - 1) 2
-  end
-*)
-(*
-starting at 1
-1 4 11 26
-2 4 8  16
-
-starting at 3
-7 22 53
-8
-*)
 
 (* ralist
    It's a Random Access list, it can be:
@@ -222,12 +167,6 @@ let insert #b a ral = match ral with
                  else Twice newTree ran3
       end
 
-
-val helper_fun : #b:Type -> ralist b -> bool
-let helper_fun #b r = match r with
-  | Twice (Leaf _)  _ -> true 
-  | _ -> false
-
 // This states that insert behaves like :: on the list
 val insert_lemma : 
                  #b:eqtype -> 
@@ -248,7 +187,8 @@ let insert_lemma #b x rl = match rl with
   end
 
 // insert modifies the size as expected
-val insert_lemma_size : #b:Type -> x:b -> rl:ralist b -> Lemma (sizeRAList (insert x rl) = sizeRAList rl + 1)
+val insert_lemma_size : #b:Type -> x:b -> rl:ralist b -> 
+                        Lemma (sizeRAList (insert x rl) = sizeRAList rl + 1)
 let insert_lemma_size #b x rl = begin 
   size_lemma (insert x rl)
 end
@@ -322,6 +262,7 @@ let ratail_lemma_list  #b #n rl = match rl with
 // I think this gives a very strong result, saying that every ralist is equal to a list constructed with inserts, this
 // if stated correctly, could allow us to do a case on RAlists similar to list, ie, you can see a RAlist as a head and a tail, or 
 // an empty list
+// TODO take real advantage of this result
 val insert_inverse_head_tail : #b:eqtype -> #n:pos -> rl:ralist b{sizeRAList rl = n} -> Lemma (insert (head rl) (ratail #b #n rl) = rl)
 let insert_inverse_head_tail #b #n rl = match rl with
   | Once ran -> begin match ran with
@@ -341,7 +282,6 @@ let insert_inverse_head_tail #b #n rl = match rl with
   | Twice t ran -> ()
 
 
-
 val fromList : #b:eqtype -> l:list b -> rl:ralist b{raToList rl = l}
 let rec fromList #b l = match l with
   | [] -> Empty
@@ -350,60 +290,52 @@ let rec fromList #b l = match l with
     insert hd (fromList tl)
   end
 
-val fromList_toList_inverses : #b:eqtype -> rl:ralist b -> Lemma (rl = fromList (raToList rl))
-// fromList l = insert (hd l) (fromlist (tail l))
-// fromlist (toList rl) = insert (hd (toList rl)) (fromList (tail (toList rl)))
-// fromlist (toList rl) = insert (head rl) (fromlist (tolist (ratail rl)))
-let fromList_toList_inverses #b rl = match rl with
-  | Empty -> ()
-  | a -> begin match (head a, ratail a) with 
-    | (x, xs) -> 
-
-// fuel < 3*log2(i)
-val lookupTree : #b:Type -> #m:pos -> i:nat{i < pow2 m - 1}  -> #fuel:pos{fuel = m}(*Here I'd like to state that fuel == log2(i), it's stronger*) -> comBiTree b m -> b
-let rec lookupTree #b #m i #fuel t = 
+// I'm doing a search on the tree that takes at most the height, it's good enough, but it could
+// be better, since this wont let us prove the O(1) bounds for first element access
+val lookupTree : #b:Type -> #m:pos  -> t:comBiTree b m  -> #fuel:pos{fuel = m} ->  i:nat{i < treeSize t} -> b
+let rec lookupTree #b #m t #fuel i = 
   match t with
-    | Leaf a -> a
+    | Leaf a -> (assert (i=0); a)
     | Branch value t1 t2 -> begin
-      let subTreeSize = pow2 (treeHeight t1) - 1 in
+      let subTreeSize = treeSize t1 in
       if subTreeSize = i then value
       else begin
            if i < subTreeSize then
-             lookupTree i #(fuel - 1) t1
+             lookupTree #b #(m-1) t1  #(fuel - 1) i
            else
-             lookupTree  (i - subTreeSize - 1) #(fuel - 1) t2
+             lookupTree #b #(m-1) t2 #(fuel - 1) (i - subTreeSize - 1)
       end
     end
-    
 
-val lookupNodes : #b:Type -> #m:pos -> rn:raNode b m -> i:pos{i < sizeRan rn} -> #fuelNodes:pos{fuelNodes = m} -> b
-//let rec lookupNodes
+val maxHeight : #b:Type -> #m:pos -> rn:raNode b m -> Tot (pos) (decreases rn)
+let rec maxHeight #b #m rn = match rn with
+  | Last t -> treeHeight t
+  | More t ran -> if (treeHeight t) < ( maxHeight ran) then (maxHeight ran) else (treeHeight t)
 
-(*val len : ralist 'a -> nat
-let rec len l = match l with
-  | Empty -> 0
-  | Once n -> lenNode n
-  | Twice t1 ran -> lenNode ran + pow2 (treeHeight t1)
-//val pop : #b : Type -> l:ralist b -> (b, ralist b)
-*)
-let testList :ralist int  = insert 1 (insert 2 (insert 0 empty))
+val lookupNodes : #b:Type -> #m:pos -> rn:raNode b m -> i:nat{i < sizeRan rn} -> #fuelNodes:pos{fuelNodes =  ranLen rn + maxHeight rn} -> Tot (b) (decreases fuelNodes)
+let rec lookupNodes #b #m rn i #fuel = match rn with
+  | Last t -> (assert (fuel >= treeHeight t );lookupTree #b #(treeHeight t) t #(treeHeight t)  i)
+  | More t ran2 -> begin
+    let ts = treeSize t in
+    if i < ts then
+      (assert (fuel >= treeHeight t); lookupTree #b #(treeHeight t) t #(treeHeight t) i)
+    else
+      lookupNodes ran2 (i - ts) #(fuel - 1)
+  end
 
-        
-
-
-(* Other Operations
-   ===== ==========
-
-  drop
-  toList (easy)  -> Foldable??
-  fromList (easy)
-  
-
-*)
-        
-        
+val lookupRA : #b: Type -> rl:ralist b -> i:nat{i < sizeRAList rl} -> Tot (b) (decreases rl)
+let lookupRA #b rl i = match rl with
+  | Once ran -> (lookupNodes #b #(treeHeight (headTree ran)) ran i #(ranLen ran + maxHeight ran) )
+  | Twice t ran -> begin
+    let ts = treeSize t in
+    if ts <= i then
+      lookupNodes  #b #(treeHeight (headTree ran)) ran (i - ts) #(ranLen ran + maxHeight ran)
+    else
+      lookupTree #b #(treeHeight t) t #(treeHeight t) i
+  end
 
 //// Some results on the structure
+// This needs more work, but could be useful
 
 val tree_spine_eq : #b:Type -> #h1:pos -> #h2:pos -> t1:comBiTree b h1 -> t2:comBiTree b h2 -> r:bool{r = (h1 = h2)}
 let rec tree_spine_eq #b #h1 #h2 t1 t2 = match t1 with
