@@ -1,0 +1,89 @@
+[
+  "6y\\:ä\u001fcàw)¸\u0015\u0005[\u0003—",
+  [
+    [
+      "NegativeTests.Termination.sumto",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "Prims_pretyping_ae567c2fb75be05905677af440075565",
+        "binder_x_bb4e1c9af0265270f8e7a5f250f730e2_0", "equation_Prims.nat",
+        "function_token_typing_Prims.__cache_version_number__",
+        "int_inversion", "primitive_Prims.op_Addition",
+        "primitive_Prims.op_Equality", "primitive_Prims.op_Subtraction",
+        "projection_inverse_BoxInt_proj_0",
+        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
+        "well-founded-ordering-on-nat"
+      ],
+      0,
+      "df6ae6bfbb0c3ddfdff7a92e76aa6092"
+    ],
+    [
+      "NegativeTests.Termination.snat",
+      1,
+      2,
+      1,
+      [ "@query" ],
+      0,
+      "eefe44d6dcfdea995bc67d846e74b771"
+    ],
+    [
+      "NegativeTests.Termination.__proj__S__item___0",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "disc_equation_NegativeTests.Termination.S",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_58d69b53f68a55a0902003d29e7d86f7"
+      ],
+      0,
+      "f4861e819c64154a45b262454c15beed"
+    ],
+    [
+      "NegativeTests.Termination.sumto",
+      2,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "Prims_pretyping_ae567c2fb75be05905677af440075565",
+        "binder_x_bb4e1c9af0265270f8e7a5f250f730e2_0", "equation_Prims.nat",
+        "function_token_typing_Prims.__cache_version_number__",
+        "int_inversion", "primitive_Prims.op_Addition",
+        "primitive_Prims.op_Equality", "primitive_Prims.op_Subtraction",
+        "projection_inverse_BoxInt_proj_0",
+        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
+        "well-founded-ordering-on-nat"
+      ],
+      0,
+      "c6f082d9fa84a0a6068472ac36300e76"
+    ],
+    [
+      "NegativeTests.Termination.snat",
+      1,
+      2,
+      1,
+      [ "@query" ],
+      0,
+      "b4463f5755cacb9a2963b1a89a9f016e"
+    ],
+    [
+      "NegativeTests.Termination.__proj__S__item___0",
+      2,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "disc_equation_NegativeTests.Termination.S",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_58d69b53f68a55a0902003d29e7d86f7"
+      ],
+      0,
+      "2e6f836a87b763f0948b5bdc655c91dd"
+    ]
+  ]
+]

@@ -1,0 +1,29 @@
+[
+  "›u÷xÄÖ²A€\u001eŸÎ¾„ƒ",
+  [
+    [
+      "Wild.exists_weaken",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "refinement_interpretation_Tm_refine_85095d9057e879f201a95ea3a2249737"
+      ],
+      0,
+      "5c72c4045197af2f07f4ea35401a302e"
+    ],
+    [
+      "Wild.exists_weaken",
+      2,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "refinement_interpretation_Tm_refine_85095d9057e879f201a95ea3a2249737"
+      ],
+      0,
+      "8adbd26d1963251ca4adbaca532f86f2"
+    ]
+  ]
+]

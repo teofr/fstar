@@ -1,0 +1,27 @@
+[
+  "$óè˚ÏõÎ¿\n_§t@íæ\u0012",
+  [
+    [
+      "Canon.Test.lem1",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "int_inversion", "int_typing",
+        "primitive_Prims.op_Addition", "primitive_Prims.op_Multiply",
+        "projection_inverse_BoxInt_proj_0"
+      ],
+      0,
+      "bea030235cf8c0237a73c047c84108ad"
+    ],
+    [
+      "Canon.Test.lem8",
+      1,
+      2,
+      1,
+      [ "@query", "true_interp" ],
+      0,
+      "8253e9f60ac7b54dadeeee052613c20f"
+    ]
+  ]
+]

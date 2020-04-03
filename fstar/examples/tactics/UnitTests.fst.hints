@@ -1,0 +1,336 @@
+[
+  "}÷ï ~à\u0005+®\u001aÑ\u000b!ö9\u0006",
+  [
+    [
+      "UnitTests.fib",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "Prims_pretyping_ae567c2fb75be05905677af440075565",
+        "binder_x_ae567c2fb75be05905677af440075565_0",
+        "function_token_typing_Prims.__cache_version_number__",
+        "int_inversion", "int_typing", "primitive_Prims.op_LessThan",
+        "primitive_Prims.op_Subtraction", "projection_inverse_BoxInt_proj_0",
+        "well-founded-ordering-on-nat"
+      ],
+      0,
+      "9f2e3dbc1c1eff6347e9a7b10dfcdfdd"
+    ],
+    [
+      "UnitTests.__proj__D__item__x",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_UnitTests.D",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_d5280682073b2e7543fac398f926302c"
+      ],
+      0,
+      "a1b694d60ea9c2302aec2c9c31f92190"
+    ],
+    [
+      "UnitTests.f",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_UnitTests.A",
+        "disc_equation_UnitTests.B", "disc_equation_UnitTests.C",
+        "disc_equation_UnitTests.D", "fuel_guarded_inversion_UnitTests.t"
+      ],
+      0,
+      "9eee0cf3fe42339c0485fb510c10d166"
+    ],
+    [
+      "UnitTests.uu___59",
+      1,
+      2,
+      1,
+      [
+        "@query", "constructor_distinct_UnitTests.D",
+        "disc_equation_UnitTests.D", "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_UnitTests.D_x", "true_interp"
+      ],
+      0,
+      "8e3295b2220f3e977de3d1c5110239bd"
+    ],
+    [
+      "UnitTests.l2",
+      1,
+      2,
+      1,
+      [ "@query", "true_interp" ],
+      0,
+      "a65661004ec60fd8ea1abf1e8f5b56b4"
+    ],
+    [
+      "UnitTests.uu___103",
+      1,
+      2,
+      1,
+      [ "@query", "assumption_FStar.Order.order__uu___haseq", "true_interp" ],
+      0,
+      "b531f2f93e5d62eb7e2a39173cee111b"
+    ],
+    [
+      "UnitTests.uu___106",
+      1,
+      2,
+      1,
+      [ "@query", "assumption_FStar.Order.order__uu___haseq", "true_interp" ],
+      0,
+      "368ea439c2d24d681dfd49b984109470"
+    ],
+    [
+      "UnitTests.uu___109",
+      1,
+      2,
+      1,
+      [ "@query", "assumption_FStar.Order.order__uu___haseq", "true_interp" ],
+      0,
+      "a338f8051ac59a1cea751e7078dbef32"
+    ],
+    [
+      "UnitTests.uu___112",
+      1,
+      2,
+      1,
+      [ "@query", "assumption_FStar.Order.order__uu___haseq", "true_interp" ],
+      0,
+      "63db9fa6f08a46462ee9b26ce3f43b01"
+    ],
+    [
+      "UnitTests.uu___115",
+      1,
+      2,
+      1,
+      [ "@query", "assumption_FStar.Order.order__uu___haseq", "true_interp" ],
+      0,
+      "520dacdd6143a3613d215e83cc070b4d"
+    ],
+    [
+      "UnitTests.uu___118",
+      1,
+      2,
+      1,
+      [ "@query", "assumption_FStar.Order.order__uu___haseq", "true_interp" ],
+      0,
+      "521939b8dd13869753655c41a7dfa6a9"
+    ],
+    [
+      "UnitTests.__proj__CC__item___0",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_UnitTests.CC",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_b63a4ecc91a51097c12fb8d5351dadb2"
+      ],
+      0,
+      "9acd71361942e5e417d928d0c11bf66b"
+    ],
+    [
+      "UnitTests.__proj__CC__item___1",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_UnitTests.CC",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_b63a4ecc91a51097c12fb8d5351dadb2"
+      ],
+      0,
+      "f70ce4c8cfa651e8a058c1df75c83beb"
+    ],
+    [
+      "UnitTests.pwtest",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_UnitTests.BB",
+        "disc_equation_UnitTests.CC", "fuel_guarded_inversion_UnitTests.tt",
+        "true_interp"
+      ],
+      0,
+      "5dd5a06a6e767035efbaa52dc157f4b3"
+    ],
+    [
+      "UnitTests.pwtest",
+      2,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "bool_inversion",
+        "data_elim_UnitTests.CC", "fuel_guarded_inversion_UnitTests.tt"
+      ],
+      0,
+      "17906b166374b1fdca2f0d30d9f0bc52"
+    ],
+    [
+      "UnitTests.fib",
+      2,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "Prims_pretyping_ae567c2fb75be05905677af440075565",
+        "binder_x_ae567c2fb75be05905677af440075565_0",
+        "function_token_typing_Prims.__cache_version_number__",
+        "int_inversion", "int_typing", "primitive_Prims.op_LessThan",
+        "primitive_Prims.op_Subtraction", "projection_inverse_BoxInt_proj_0",
+        "well-founded-ordering-on-nat"
+      ],
+      0,
+      "8f31bd204f441f70a9a501d98823a257"
+    ],
+    [
+      "UnitTests.__proj__D__item__x",
+      2,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_UnitTests.D",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_d5280682073b2e7543fac398f926302c"
+      ],
+      0,
+      "289d0f71d69669f3a1744ab4490da904"
+    ],
+    [
+      "UnitTests.f",
+      2,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_UnitTests.A",
+        "disc_equation_UnitTests.B", "disc_equation_UnitTests.C",
+        "disc_equation_UnitTests.D", "fuel_guarded_inversion_UnitTests.t"
+      ],
+      0,
+      "e548ea6da57992fb349efb1d85afcab3"
+    ],
+    [
+      "UnitTests.uu___59",
+      2,
+      2,
+      1,
+      [
+        "@query", "constructor_distinct_UnitTests.D",
+        "disc_equation_UnitTests.D", "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_UnitTests.D_x", "true_interp"
+      ],
+      0,
+      "67dc87c2b0eedebf86216f4950edfc06"
+    ],
+    [
+      "UnitTests.uu___103",
+      2,
+      2,
+      1,
+      [ "@query", "assumption_FStar.Order.order__uu___haseq", "true_interp" ],
+      0,
+      "8eda1a2e635ae31aba1df021eaf5b595"
+    ],
+    [
+      "UnitTests.uu___106",
+      2,
+      2,
+      1,
+      [ "@query", "assumption_FStar.Order.order__uu___haseq", "true_interp" ],
+      0,
+      "2c050bedf4ad8a7119d6fb396acb818c"
+    ],
+    [
+      "UnitTests.uu___109",
+      2,
+      2,
+      1,
+      [ "@query", "assumption_FStar.Order.order__uu___haseq", "true_interp" ],
+      0,
+      "03ae6e2ec12b229bc8954ea123616fd0"
+    ],
+    [
+      "UnitTests.uu___112",
+      2,
+      2,
+      1,
+      [ "@query", "assumption_FStar.Order.order__uu___haseq", "true_interp" ],
+      0,
+      "442b2ef1f2dc67f38c4a188035d12d95"
+    ],
+    [
+      "UnitTests.uu___115",
+      2,
+      2,
+      1,
+      [ "@query", "assumption_FStar.Order.order__uu___haseq", "true_interp" ],
+      0,
+      "19c1bd80e13f88b2b0d5d9ad28c3f8ae"
+    ],
+    [
+      "UnitTests.uu___118",
+      2,
+      2,
+      1,
+      [ "@query", "assumption_FStar.Order.order__uu___haseq", "true_interp" ],
+      0,
+      "3375b61fee30f06cd2d1f1f43ebf31f5"
+    ],
+    [
+      "UnitTests.__proj__CC__item___0",
+      2,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_UnitTests.CC",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_b63a4ecc91a51097c12fb8d5351dadb2"
+      ],
+      0,
+      "40ba51f754af9d1f00c75afa1c180095"
+    ],
+    [
+      "UnitTests.__proj__CC__item___1",
+      2,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_UnitTests.CC",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_b63a4ecc91a51097c12fb8d5351dadb2"
+      ],
+      0,
+      "05668ba042e70a71da05acb464dd848c"
+    ],
+    [
+      "UnitTests.pwtest",
+      3,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_UnitTests.BB",
+        "disc_equation_UnitTests.CC", "fuel_guarded_inversion_UnitTests.tt",
+        "true_interp"
+      ],
+      0,
+      "1f767d5460d1fd2352ea728d3ca1c39a"
+    ],
+    [
+      "UnitTests.pwtest",
+      4,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "bool_inversion",
+        "data_elim_UnitTests.CC", "fuel_guarded_inversion_UnitTests.tt"
+      ],
+      0,
+      "204907c512783282ec0a7c2c6ee74143"
+    ]
+  ]
+]

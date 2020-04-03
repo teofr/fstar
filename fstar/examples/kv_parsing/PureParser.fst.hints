@@ -1,0 +1,91 @@
+[
+  "aDÊlÔŒI‚kÖê˚\u0005øØŒ",
+  [
+    [
+      "PureParser.parse_entry",
+      1,
+      2,
+      1,
+      [ "@query", "equation_FStar.UInt8.byte", "equation_Slice.byte" ],
+      0,
+      "d3dcfe2877084a4ce6a5bd86fbd6bca5"
+    ],
+    [
+      "PureParser.parse_abstract_store",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "Prims_pretyping_ae567c2fb75be05905677af440075565",
+        "equation_FStar.UInt.uint_t",
+        "function_token_typing_Prims.__cache_version_number__",
+        "int_inversion", "lemma_FStar.Buffer.lemma_size",
+        "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
+        "typing_FStar.UInt32.v"
+      ],
+      0,
+      "11191a118199bee4182150d6968fdac3"
+    ],
+    [
+      "PureParser.parse_entries",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "Prims_pretyping_ae567c2fb75be05905677af440075565",
+        "equation_FStar.UInt.uint_t",
+        "function_token_typing_Prims.__cache_version_number__",
+        "int_inversion", "lemma_FStar.Buffer.lemma_size",
+        "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
+        "typing_FStar.UInt32.v"
+      ],
+      0,
+      "9fc51050e5ba81955e46b8030456e53f"
+    ],
+    [
+      "PureParser.parse_entry",
+      2,
+      2,
+      1,
+      [ "@query", "equation_FStar.UInt8.byte", "equation_Slice.byte" ],
+      0,
+      "1a4c1917d7795949ec3c2ecffebc9fbf"
+    ],
+    [
+      "PureParser.parse_abstract_store",
+      2,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "Prims_pretyping_ae567c2fb75be05905677af440075565",
+        "equation_FStar.UInt.uint_t",
+        "function_token_typing_Prims.__cache_version_number__",
+        "int_inversion", "lemma_FStar.Buffer.lemma_size",
+        "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
+        "typing_FStar.UInt32.v"
+      ],
+      0,
+      "b613c2cab0e5c6552dca0b82c92f3537"
+    ],
+    [
+      "PureParser.parse_entries",
+      2,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "Prims_pretyping_ae567c2fb75be05905677af440075565",
+        "equation_FStar.UInt.uint_t",
+        "function_token_typing_Prims.__cache_version_number__",
+        "int_inversion", "lemma_FStar.Buffer.lemma_size",
+        "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
+        "typing_FStar.UInt32.v"
+      ],
+      0,
+      "240fc354ecd75d31977586c80419b2da"
+    ]
+  ]
+]

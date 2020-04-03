@@ -1,0 +1,65 @@
+[
+  "+ž[™Ô\fõr)j>c\u001bêª—",
+  [
+    [
+      "Cap.capRead",
+      1,
+      2,
+      1,
+      [
+        "@query", "assumption_Platform.Bytes.HasEq_bytes",
+        "equation_Cap.byte", "equation_Platform.Bytes.bytes"
+      ],
+      0,
+      "716d282a537ce2f8421acb413c27e63d"
+    ],
+    [
+      "Cap.main",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "Prims_pretyping_f8666440faa91836cc5a13998af863fc",
+        "assumption_Cap.UTF8_inj",
+        "constructor_distinct_FStar.Pervasives.Native.Some",
+        "disc_equation_FStar.Pervasives.Native.Some", "equation_Cap.capRead",
+        "equation_Cap.f", "equation_Cert.ACLs.canRead",
+        "equation_Cert.ACLs.publicFile", "equation_MAC.pkey",
+        "equation_Platform.Bytes.bytes", "equation_SHA1.tag",
+        "function_token_typing_MAC.key_prop", "primitive_Prims.op_AmpAmp",
+        "primitive_Prims.op_BarBar", "primitive_Prims.op_Equality",
+        "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_FStar.Pervasives.Native.Some_a",
+        "projection_inverse_FStar.Pervasives.Native.Some_v",
+        "refinement_interpretation_Tm_refine_80ee390faac14219b179447f9069a246",
+        "refinement_interpretation_Tm_refine_8780019b0aae248f45fa2cdeef995357",
+        "token_correspondence_Cap.capRead", "typing_Cap.f",
+        "typing_Platform.Bytes.equalBytes", "unit_typing"
+      ],
+      0,
+      "c119102c864697adaa542331c9015aad"
+    ],
+    [
+      "Cap.capRead",
+      2,
+      2,
+      1,
+      [
+        "@query", "assumption_Platform.Bytes.HasEq_bytes",
+        "equation_Cap.byte", "equation_Platform.Bytes.bytes"
+      ],
+      0,
+      "d83d5cad873c700103cc3439f7ccac8d"
+    ],
+    [
+      "Cap.issue",
+      1,
+      2,
+      1,
+      [ "@query" ],
+      0,
+      "8d730204970b911d55079633e513d0a5"
+    ]
+  ]
+]

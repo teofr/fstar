@@ -1,0 +1,21 @@
+# --------------------------------------------------------------------
+ifndef FSTAR_HOME
+   $(error "Please define the `FSTAR_HOME` variable before including this makefile.")
+endif
+
+include $(FSTAR_HOME)/ulib/gmake/z3.mk
+include $(FSTAR_HOME)/ulib/gmake/fstar.mk
+
+
+ifeq ($(OS),Windows_NT)
+  MSBUILD = $(FSTAR_HOME)/src/msbuild.bat
+else
+  # If can't find msbuild, use xbuild, but throw a warning
+  MSBUILD = $(shell which msbuild || (echo '\n\n\033[0;31mWarning:\033[0m could not find "msbuild", trying (deprecated) "xbuild"\n\n'>&2; which xbuild))
+endif
+
+%.uver: %.fst
+	$(FSTAR) --use_extracted_interfaces true $^
+
+%.fail-uver: %.fst
+	(! $(FSTAR) $^ >/dev/null 2>&1) || (echo "NEGATIVE TEST FAILED ($@)!" ; false)

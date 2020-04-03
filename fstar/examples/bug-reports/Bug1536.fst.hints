@@ -1,0 +1,61 @@
+[
+  "¨M\u0000ËÇ\u001e\u0019ÁQ\u0014Lîa\u001d\u0002p",
+  [
+    [
+      "Bug1536.bind_ex",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "Bug1536_interpretation_Tm_arrow_72cdc0c9c0d847eb228998a5a6607da8",
+        "disc_equation_FStar.Pervasives.Inl",
+        "disc_equation_FStar.Pervasives.Inr", "equation_Bug1536.ex",
+        "fuel_guarded_inversion_FStar.Pervasives.either", "unit_typing"
+      ],
+      0,
+      "245d49ed43f2396f71a6384f138068e3"
+    ],
+    [
+      "Bug1536._dm4f_EXN_bind_wp",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "disc_equation_FStar.Pervasives.Inl",
+        "disc_equation_FStar.Pervasives.Inr",
+        "fuel_guarded_inversion_FStar.Pervasives.either"
+      ],
+      0,
+      "49fe0b87b25e8179be345ab85e5bc934"
+    ],
+    [
+      "Bug1536._dm4f_EXN___proj__EXN__item__raise_elab",
+      1,
+      2,
+      1,
+      [ "@query" ],
+      0,
+      "183e1fc76e33f4a2582098a1291277e7"
+    ],
+    [
+      "Bug1536.EXN",
+      1,
+      2,
+      1,
+      [ "@query" ],
+      0,
+      "18694dc83c4d0f992731f4496c8b7747"
+    ],
+    [
+      "Bug1536.ret",
+      1,
+      2,
+      1,
+      [ "@query" ],
+      0,
+      "00ba430e3598c84ee954e512121531d2"
+    ]
+  ]
+]

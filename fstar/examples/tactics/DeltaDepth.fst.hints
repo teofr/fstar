@@ -1,0 +1,83 @@
+[
+  "˛◊-IÈ5+°ï\u0004'ùßï\b˚",
+  [
+    [
+      "DeltaDepth.__proj__A__item___0",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_DeltaDepth.A",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_5e57589849c6497f93798a0ea15a1df2"
+      ],
+      0,
+      "558e30f67d919e17d1c945d97d159168"
+    ],
+    [
+      "DeltaDepth.__proj__B__item___0",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_DeltaDepth.B",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_90c35950d1e7f0a820470167e5c76674"
+      ],
+      0,
+      "94093da34b130efa56b1de561648ad29"
+    ],
+    [
+      "DeltaDepth.m",
+      1,
+      2,
+      1,
+      [
+        "@query", "constructor_distinct_DeltaDepth.A",
+        "disc_equation_DeltaDepth.A", "equation_DeltaDepth.v",
+        "projection_inverse_DeltaDepth.A__0"
+      ],
+      0,
+      "6a4f57362e9290d4c3ac426c8440831a"
+    ],
+    [
+      "DeltaDepth.__proj__A__item___0",
+      2,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_DeltaDepth.A",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_5e57589849c6497f93798a0ea15a1df2"
+      ],
+      0,
+      "cc4bc933fd7f7143afd1670c55092319"
+    ],
+    [
+      "DeltaDepth.__proj__B__item___0",
+      2,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_DeltaDepth.B",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_90c35950d1e7f0a820470167e5c76674"
+      ],
+      0,
+      "fa4a9fb2f803b87bba3e5b5f7ddfa5bd"
+    ],
+    [
+      "DeltaDepth.m",
+      2,
+      2,
+      1,
+      [
+        "@query", "constructor_distinct_DeltaDepth.A",
+        "disc_equation_DeltaDepth.A", "equation_DeltaDepth.v",
+        "projection_inverse_DeltaDepth.A__0"
+      ],
+      0,
+      "f6553560a6c01de32adb81253b16fae9"
+    ]
+  ]
+]

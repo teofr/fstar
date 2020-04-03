@@ -1,0 +1,29 @@
+[
+  "2bÊ£» édúl¨?o°\u0010È",
+  [
+    [
+      "Setopts.mult_ass",
+      1,
+      2,
+      1,
+      [
+        "@query", "primitive_Prims.op_Addition",
+        "primitive_Prims.op_Multiply", "projection_inverse_BoxInt_proj_0"
+      ],
+      0,
+      "dd2262d17fac4aa6b3c3dee6c4618c46"
+    ],
+    [
+      "Setopts.mult_ass",
+      2,
+      2,
+      2,
+      [
+        "@query", "primitive_Prims.op_Addition",
+        "primitive_Prims.op_Multiply", "projection_inverse_BoxInt_proj_0"
+      ],
+      0,
+      "8827ee3d218aabf29bf562958944855d"
+    ]
+  ]
+]

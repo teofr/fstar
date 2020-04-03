@@ -1,0 +1,43 @@
+[
+  "\u0004bÍP‘Œÿ\u001e1j®\u0005ÕNòi",
+  [
+    [
+      "ReifyLong.is_x",
+      1,
+      2,
+      1,
+      [ "@query", "assumption_Prims.HasEq_int" ],
+      0,
+      "204943f8dd4fc86af6fc4962bd0e4ead"
+    ],
+    [
+      "ReifyLong.bidule",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "FStar.DM4F.IntStoreFixed.__proj__INT_STORE__item__put_equality",
+        "Prims_pretyping_f8666440faa91836cc5a13998af863fc",
+        "equation_FStar.DM4F.IntStoreFixed.write",
+        "equation_FStar.Pervasives.Native.fst", "equation_ReifyLong.p1",
+        "interpretation_Tm_abs_b39c8c630087b05df5c03dcc1ddf75bf",
+        "interpretation_Tm_abs_f5eb1bdda21a9c56f1f99baa07af86ee",
+        "proj_equation_FStar.Pervasives.Native.Mktuple2__1",
+        "projection_inverse_FStar.Pervasives.Native.Mktuple2__1",
+        "unit_typing"
+      ],
+      0,
+      "cca9deda750673e82374cc5881bad639"
+    ],
+    [
+      "ReifyLong.is_x",
+      2,
+      2,
+      1,
+      [ "@query", "assumption_Prims.HasEq_int" ],
+      0,
+      "27138d226087e6556a5582013abd2804"
+    ]
+  ]
+]

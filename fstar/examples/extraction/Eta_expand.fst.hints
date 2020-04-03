@@ -1,0 +1,33 @@
+[
+  "ñóx\\ Ìæˆ©I{B¸Æ¯\r",
+  [
+    [
+      "Eta_expand.dec",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Eta_expand.A",
+        "disc_equation_Eta_expand.B", "fuel_guarded_inversion_Eta_expand.t"
+      ],
+      0,
+      "ae4e1a171120571c536a1e216022c442"
+    ],
+    [
+      "Eta_expand.choose",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "constructor_distinct_Eta_expand.A",
+        "constructor_distinct_Eta_expand.B", "disc_equation_Eta_expand.A",
+        "disc_equation_Eta_expand.B", "equation_Eta_expand.dec",
+        "fuel_guarded_inversion_Eta_expand.t",
+        "projection_inverse_BoxBool_proj_0"
+      ],
+      0,
+      "a61b4744598ff516fa2361624175aa57"
+    ]
+  ]
+]

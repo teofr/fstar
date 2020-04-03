@@ -1,0 +1,51 @@
+[
+  "J«¸ù¡√«\u0007æ—9pFv}n",
+  [
+    [
+      "LowStar.Ex2.prefix_equal",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "constructor_distinct_FStar.Integers.Unsigned",
+        "constructor_distinct_FStar.Integers.W32",
+        "equality_tok_FStar.Integers.W32@tok", "equation_FStar.Integers.v",
+        "equation_FStar.UInt.lte", "equation_FStar.UInt32.lte",
+        "equation_LowStar.Buffer.trivial_preorder",
+        "equation_LowStar.Ex2.lbuffer",
+        "equation_LowStar.Monotonic.Buffer.length",
+        "primitive_Prims.op_LessThanOrEqual",
+        "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_FStar.Integers.Unsigned__0",
+        "refinement_interpretation_Tm_refine_058782b7d4bb5815b5309774af61e92e",
+        "refinement_interpretation_Tm_refine_8807cc77b6a1b45afbe57dc1caa2253c"
+      ],
+      0,
+      "c28eb3c81f62d34f029e870e6451dabb"
+    ],
+    [
+      "LowStar.Ex2.prefix_equal",
+      2,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "constructor_distinct_FStar.Integers.Unsigned",
+        "constructor_distinct_FStar.Integers.W32",
+        "equality_tok_FStar.Integers.W32@tok", "equation_FStar.Integers.v",
+        "equation_FStar.UInt.lte", "equation_FStar.UInt32.lte",
+        "equation_LowStar.Buffer.trivial_preorder",
+        "equation_LowStar.Ex2.lbuffer",
+        "equation_LowStar.Monotonic.Buffer.length",
+        "primitive_Prims.op_LessThanOrEqual",
+        "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_FStar.Integers.Unsigned__0",
+        "refinement_interpretation_Tm_refine_058782b7d4bb5815b5309774af61e92e",
+        "refinement_interpretation_Tm_refine_8807cc77b6a1b45afbe57dc1caa2253c"
+      ],
+      0,
+      "ad0d2590b6f4871bae8c88f04ebf7b8e"
+    ]
+  ]
+]

@@ -1,0 +1,122 @@
+[
+  "íPR§ùÑÁ‡Åâû\u0000\u0018\t§¼",
+  [
+    [
+      "MiniParse.Impl.Base.parser_impl",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "equation_MiniParse.Spec.Base.consumed_length", "equation_Prims.nat",
+        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
+        "refinement_interpretation_Tm_refine_dc637847b7b99b4939b5789dbf5309e8"
+      ],
+      0,
+      "fc83fc7b165728cf2ebbe21d9c04c1d4"
+    ],
+    [
+      "MiniParse.Impl.Base.coerce_parser_impl",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "eq2-interp", "equation_Prims.eq2",
+        "equation_Prims.squash",
+        "refinement_interpretation_Tm_refine_2de20c066034c13bf76e9c0b94f4806c"
+      ],
+      0,
+      "1cff3b08772a8f43a119e28a2febafad"
+    ],
+    [
+      "MiniParse.Impl.Base.serializer_impl",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "FStar.UInt32_pretyping_041e3a67a2d2b51fd702f1f88cfc3b44",
+        "bool_inversion", "disc_equation_FStar.Pervasives.Native.None",
+        "disc_equation_FStar.Pervasives.Native.Some",
+        "equation_FStar.UInt32.n_minus_one",
+        "equation_LowStar.Buffer.trivial_preorder", "equation_Prims.l_True",
+        "equation_Prims.logical",
+        "function_token_typing_FStar.UInt32.n_minus_one",
+        "function_token_typing_FStar.UInt32.t",
+        "function_token_typing_LowStar.Buffer.trivial_preorder",
+        "interpretation_Tm_abs_2d4a1d05236e82a428a71813e1ca9661",
+        "lemma_FStar.Pervasives.invertOption", "primitive_Prims.op_Addition",
+        "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_BoxInt_proj_0", "true_interp",
+        "typing_FStar.Pervasives.Native.uu___is_Some"
+      ],
+      0,
+      "33218bf96664b9b74843bff8fe8ebdfd"
+    ],
+    [
+      "MiniParse.Impl.Base.parser_impl",
+      2,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "equation_MiniParse.Spec.Base.consumed_length", "equation_Prims.nat",
+        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
+        "refinement_interpretation_Tm_refine_dc637847b7b99b4939b5789dbf5309e8"
+      ],
+      0,
+      "c7af76fca2e48c773b32a8677809ccbb"
+    ],
+    [
+      "MiniParse.Impl.Base.coerce_parser_impl",
+      2,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "eq2-interp", "equation_Prims.eq2",
+        "equation_Prims.squash",
+        "refinement_interpretation_Tm_refine_2de20c066034c13bf76e9c0b94f4806c"
+      ],
+      0,
+      "0bec077ba5663e793be6080c0147feaa"
+    ],
+    [
+      "MiniParse.Impl.Base.coerce_parser_impl",
+      3,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "eq2-interp", "equation_Prims.eq2",
+        "equation_Prims.squash",
+        "refinement_interpretation_Tm_refine_2de20c066034c13bf76e9c0b94f4806c"
+      ],
+      0,
+      "0fbab46a86358087a8fd660e7732ab90"
+    ],
+    [
+      "MiniParse.Impl.Base.serializer_impl",
+      2,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "FStar.UInt32_pretyping_041e3a67a2d2b51fd702f1f88cfc3b44",
+        "bool_inversion", "disc_equation_FStar.Pervasives.Native.None",
+        "disc_equation_FStar.Pervasives.Native.Some",
+        "equation_FStar.UInt32.n_minus_one",
+        "equation_LowStar.Buffer.trivial_preorder", "equation_Prims.l_True",
+        "equation_Prims.logical",
+        "function_token_typing_FStar.UInt32.n_minus_one",
+        "function_token_typing_FStar.UInt32.t",
+        "function_token_typing_LowStar.Buffer.trivial_preorder",
+        "interpretation_Tm_abs_2d4a1d05236e82a428a71813e1ca9661",
+        "lemma_FStar.Pervasives.invertOption", "primitive_Prims.op_Addition",
+        "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_BoxInt_proj_0", "true_interp",
+        "typing_FStar.Pervasives.Native.uu___is_Some"
+      ],
+      0,
+      "3f8cdd4d3b5dd2eef248545e837acd85"
+    ]
+  ]
+]

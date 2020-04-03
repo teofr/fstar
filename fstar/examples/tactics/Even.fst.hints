@@ -1,0 +1,177 @@
+[
+  "”×ÎEŸÈxÌ9a&Z\u001fþú;",
+  [
+    [
+      "Even.unat",
+      1,
+      2,
+      1,
+      [ "@query" ],
+      0,
+      "eaa237aa527773d3f5e0ad1e3d4b5f8f"
+    ],
+    [
+      "Even.__proj__S__item___0",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Even.S",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_bb628da1f7d40b6a048cba9503380f5d"
+      ],
+      0,
+      "3e214b18a63ee1aaa3ec5d54fc8792a7"
+    ],
+    [
+      "Even.nat2unary",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "Prims_pretyping_ae567c2fb75be05905677af440075565",
+        "binder_x_bb4e1c9af0265270f8e7a5f250f730e2_0", "equation_Prims.nat",
+        "function_token_typing_Prims.__cache_version_number__",
+        "int_inversion", "int_typing", "primitive_Prims.op_Equality",
+        "primitive_Prims.op_Subtraction", "projection_inverse_BoxInt_proj_0",
+        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
+        "well-founded-ordering-on-nat"
+      ],
+      0,
+      "df722ca3314da9f834495ca5d2525022"
+    ],
+    [
+      "Even.even",
+      1,
+      2,
+      1,
+      [ "@query", "assumption_Even.unat__uu___haseq" ],
+      0,
+      "2d31d83db57a74d0f04dd49bed7f947e"
+    ],
+    [
+      "Even.__proj__Even_SS__item__n",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Even.Even_SS",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_54b3fdb8b64a7b5a7f1535a28234d0d5"
+      ],
+      0,
+      "cdf323081fa650ebdd1f055981dda725"
+    ],
+    [
+      "Even.__proj__Even_SS__item___1",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Even.Even_SS",
+        "proj_equation_Even.Even_SS_n", "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_Even.Even_SS_n",
+        "refinement_interpretation_Tm_refine_54b3fdb8b64a7b5a7f1535a28234d0d5"
+      ],
+      0,
+      "76a413402ae17c6b453adab873b09e81"
+    ],
+    [
+      "Even.unat",
+      1,
+      2,
+      1,
+      [ "@query" ],
+      0,
+      "1259d672a11d308651a4ba3908735fc9"
+    ],
+    [
+      "Even.__proj__S__item___0",
+      2,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Even.S",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_bb628da1f7d40b6a048cba9503380f5d"
+      ],
+      0,
+      "09bec136dccb882f91fd7d3c2456f8c5"
+    ],
+    [
+      "Even.nat2unary",
+      2,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "Prims_pretyping_ae567c2fb75be05905677af440075565",
+        "binder_x_bb4e1c9af0265270f8e7a5f250f730e2_0", "equation_Prims.nat",
+        "function_token_typing_Prims.__cache_version_number__",
+        "int_inversion", "int_typing", "primitive_Prims.op_Equality",
+        "primitive_Prims.op_Subtraction", "projection_inverse_BoxInt_proj_0",
+        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
+        "well-founded-ordering-on-nat"
+      ],
+      0,
+      "ecdc2cfd37c1edd7d49cf704ba64f170"
+    ],
+    [
+      "Even.even",
+      1,
+      2,
+      1,
+      [ "@query", "assumption_Even.unat__uu___haseq" ],
+      0,
+      "05516db3643b55e748b1b1a5996572dd"
+    ],
+    [
+      "Even.__proj__Even_SS__item__n",
+      2,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Even.Even_SS",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_54b3fdb8b64a7b5a7f1535a28234d0d5"
+      ],
+      0,
+      "12f9dd8ec934f5d549abb2cb432a2ca2"
+    ],
+    [
+      "Even.__proj__Even_SS__item___1",
+      2,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Even.Even_SS",
+        "proj_equation_Even.Even_SS_n", "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_Even.Even_SS_n",
+        "refinement_interpretation_Tm_refine_54b3fdb8b64a7b5a7f1535a28234d0d5"
+      ],
+      0,
+      "9c66b7a9a7919eba94ca3862be906391"
+    ],
+    [
+      "Even.prove_even",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "Prims_pretyping_f8666440faa91836cc5a13998af863fc", "bool_inversion",
+        "disc_equation_FStar.Tactics.Result.Failed",
+        "disc_equation_FStar.Tactics.Result.Success",
+        "equation_Prims.eqtype", "function_token_typing_Prims.unit",
+        "kinding_Prims.list@tok", "lemma_FStar.Tactics.Result.result_split",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f",
+        "typing_FStar.Tactics.Result.uu___is_Failed",
+        "typing_FStar.Tactics.Result.uu___is_Success", "unit_typing"
+      ],
+      0,
+      "6c8c8a0129cf3e0ea48d50b99ece416d"
+    ]
+  ]
+]

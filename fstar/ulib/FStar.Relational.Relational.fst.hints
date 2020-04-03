@@ -1,0 +1,49 @@
+[
+  "è˜ˇn\u001b”cé®ˆÆZ‚÷ìΩ",
+  [
+    [
+      "FStar.Relational.Relational.rel",
+      1,
+      2,
+      1,
+      [ "@query" ],
+      0,
+      "f7f412e3784fec8463c15e695d51cedd"
+    ],
+    [
+      "FStar.Relational.Relational.tl_rel",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Prims.Cons",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_12775a49c16ac0863ce1a5e5a1a8be3f"
+      ],
+      0,
+      "1f4b873d4f74b345c638543555f1b956"
+    ],
+    [
+      "FStar.Relational.Relational.rel",
+      1,
+      2,
+      1,
+      [ "@query" ],
+      0,
+      "dce68a8370c479abc49c67eb67232dd4"
+    ],
+    [
+      "FStar.Relational.Relational.tl_rel",
+      2,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Prims.Cons",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_12775a49c16ac0863ce1a5e5a1a8be3f"
+      ],
+      0,
+      "a32181ed02a99d3b4a5b9d6f833de296"
+    ]
+  ]
+]

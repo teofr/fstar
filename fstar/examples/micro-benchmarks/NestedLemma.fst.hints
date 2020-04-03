@@ -1,0 +1,23 @@
+[
+  "Ž“þÂæ\u0002\u0018Ò\u000fqìÕã›A™",
+  [
+    [
+      "NestedLemma.test",
+      1,
+      2,
+      1,
+      [ "@query" ],
+      0,
+      "4f6b5f0853f64617a5aec948a92c52b6"
+    ],
+    [
+      "NestedLemma.test",
+      2,
+      2,
+      1,
+      [ "@query" ],
+      0,
+      "6c679ed8e72643b6b778203a815ee2cc"
+    ]
+  ]
+]

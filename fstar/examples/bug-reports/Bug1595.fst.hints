@@ -1,0 +1,122 @@
+[
+  "WTÌ?ˆPmgÕVA¾åÌhü",
+  [
+    [
+      "Bug1595.__proj__CalcRefl__item__x",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Bug1595.CalcRefl",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_0d210bce4d0a1cb53e8b9752eeac3ff1"
+      ],
+      0,
+      "f50ea71514e58def63b19bb7f1e23b22"
+    ],
+    [
+      "Bug1595.__proj__CalcStep__item__rs",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Bug1595.CalcStep",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_901b78fb58b641c2f5af6e1570fc6161"
+      ],
+      0,
+      "fb23e9a8db11a7ab1d4438e27e325e84"
+    ],
+    [
+      "Bug1595.__proj__CalcStep__item__p",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Bug1595.CalcStep",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_901b78fb58b641c2f5af6e1570fc6161"
+      ],
+      0,
+      "9ed9091bac0de8f38fe10b65f87253df"
+    ],
+    [
+      "Bug1595.__proj__CalcStep__item__x",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Bug1595.CalcStep",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_901b78fb58b641c2f5af6e1570fc6161"
+      ],
+      0,
+      "9691d007a347c1a26a61da725f20b99a"
+    ],
+    [
+      "Bug1595.__proj__CalcStep__item__y",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Bug1595.CalcStep",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_901b78fb58b641c2f5af6e1570fc6161"
+      ],
+      0,
+      "9d54dfd84d447c3307a54f5e663e518b"
+    ],
+    [
+      "Bug1595.__proj__CalcStep__item__z",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Bug1595.CalcStep",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_901b78fb58b641c2f5af6e1570fc6161"
+      ],
+      0,
+      "81181aa647a44c645caeb78c0be6fc56"
+    ],
+    [
+      "Bug1595.__proj__CalcStep__item___5",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Bug1595.CalcStep",
+        "proj_equation_Bug1595.CalcStep_rs",
+        "proj_equation_Bug1595.CalcStep_x",
+        "proj_equation_Bug1595.CalcStep_y",
+        "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_Bug1595.CalcStep_rs",
+        "projection_inverse_Bug1595.CalcStep_x",
+        "projection_inverse_Bug1595.CalcStep_y",
+        "refinement_interpretation_Tm_refine_901b78fb58b641c2f5af6e1570fc6161"
+      ],
+      0,
+      "12e6cd9debe5d8b41636193a62c0c7ce"
+    ],
+    [
+      "Bug1595.__proj__CalcStep__item___6",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "data_elim_Bug1595.CalcStep",
+        "disc_equation_Bug1595.CalcStep", "proj_equation_Bug1595.CalcStep_p",
+        "proj_equation_Bug1595.CalcStep_y",
+        "proj_equation_Bug1595.CalcStep_z",
+        "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_Bug1595.CalcStep_p",
+        "projection_inverse_Bug1595.CalcStep_y",
+        "projection_inverse_Bug1595.CalcStep_z",
+        "refinement_interpretation_Tm_refine_901b78fb58b641c2f5af6e1570fc6161",
+        "token_correspondence_Bug1595.__proj__CalcStep__item__p"
+      ],
+      0,
+      "06bb82352ec7323fb9a1cfe26222f9f2"
+    ]
+  ]
+]

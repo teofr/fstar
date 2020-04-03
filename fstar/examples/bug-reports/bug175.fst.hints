@@ -1,0 +1,110 @@
+[
+  "Ü\u0015\u0016‡ÑÍA#Aâ|9k\u0004P¼",
+  [
+    [
+      "Bug175.exp",
+      1,
+      2,
+      1,
+      [ "@query" ],
+      0,
+      "a20b424bb4818d8ca6b30a3e74998cd3"
+    ],
+    [
+      "Bug175.__proj__SApp1__item__h",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Bug175.SApp1",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_a67958f432222acb1037b7352e3962fa"
+      ],
+      0,
+      "51f07e98863782436ba0ab48d357cd40"
+    ],
+    [
+      "Bug175.__proj__SApp1__item__e1",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Bug175.SApp1",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_a67958f432222acb1037b7352e3962fa"
+      ],
+      0,
+      "71660f2dfd4f6e800e44d0ea5fa6ab63"
+    ],
+    [
+      "Bug175.__proj__SApp1__item__e2",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Bug175.SApp1",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_a67958f432222acb1037b7352e3962fa"
+      ],
+      0,
+      "93a75fb17287d28400e9db3bef4d6114"
+    ],
+    [
+      "Bug175.__proj__SApp2__item__h",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Bug175.SApp2",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_12e4827d6d58248a44aeb52cce13cdc0"
+      ],
+      0,
+      "cd3e2af28b7af14bfd14da98b22d733b"
+    ],
+    [
+      "Bug175.__proj__SApp2__item__e1",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Bug175.SApp2",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_12e4827d6d58248a44aeb52cce13cdc0"
+      ],
+      0,
+      "6f7d0a07e0218a59f28f15f57687759a"
+    ],
+    [
+      "Bug175.__proj__SApp2__item__e2",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Bug175.SApp2",
+        "projection_inverse_BoxBool_proj_0",
+        "refinement_interpretation_Tm_refine_12e4827d6d58248a44aeb52cce13cdc0"
+      ],
+      0,
+      "14336afd3a977cec6bc871e6d6be5d16"
+    ],
+    [
+      "Bug175.__proj__SApp2__item___3",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Bug175.SApp2",
+        "equation_Bug175.config", "equation_Bug175.heap",
+        "fuel_guarded_inversion_FStar.Pervasives.Native.tuple2",
+        "proj_equation_Bug175.SApp2_e2", "proj_equation_Bug175.SApp2_h",
+        "projection_inverse_BoxBool_proj_0",
+        "projection_inverse_Bug175.SApp2_e2",
+        "projection_inverse_Bug175.SApp2_h",
+        "refinement_interpretation_Tm_refine_12e4827d6d58248a44aeb52cce13cdc0"
+      ],
+      0,
+      "e5cbc52c014fabd2dd02359424ab2d0c"
+    ]
+  ]
+]

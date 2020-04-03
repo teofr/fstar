@@ -1,0 +1,34 @@
+[
+  "Ë¾—!©\u0004Õe\u0010\u0013Hw\u001bºY0",
+  [
+    [
+      "Ex06a.partition",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "binder_x_0a56e3de562c08d8ab59f4ac6f626a98_3",
+        "constructor_distinct_Prims.Nil", "disc_equation_Prims.Cons",
+        "disc_equation_Prims.Nil", "fuel_guarded_inversion_Prims.list",
+        "projection_inverse_Prims.Cons_tl", "subterm_ordering_Prims.Cons"
+      ],
+      0,
+      "44c31b9e54420815727a9dd2e7807e0e"
+    ],
+    [
+      "Ex06a.partition",
+      2,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "binder_x_0a56e3de562c08d8ab59f4ac6f626a98_3",
+        "disc_equation_Prims.Cons", "disc_equation_Prims.Nil",
+        "fuel_guarded_inversion_Prims.list", "subterm_ordering_Prims.Cons"
+      ],
+      0,
+      "7634c0d77ca670a9a35c00cbca8e65ce"
+    ]
+  ]
+]

@@ -1,0 +1,17 @@
+[
+  "¥H&Îš±C•¶x¦öñ¤>J",
+  [
+    [
+      "Bug1449.f",
+      1,
+      2,
+      1,
+      [
+        "@MaxIFuel_assumption", "@query", "disc_equation_Prims.Cons",
+        "disc_equation_Prims.Nil", "fuel_guarded_inversion_Prims.list"
+      ],
+      0,
+      "d5448da642a87dbca58b928b85ac90d7"
+    ]
+  ]
+]
